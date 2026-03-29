@@ -49,9 +49,13 @@ Silero VAD
 SpeechRecognition
 🏗 System Architecture
 User (Text / Voice)
+
         ↓
+        
 Frontend (Web UI)
+
         ↓
+        
 FastAPI Backend
         ↓
 AI Agent (LangChain + LangGraph)
