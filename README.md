@@ -30,10 +30,6 @@ Audio Tools: FFmpeg, Silero VAD.
 
 🚀 Cài đặt và sử dụng
 Cài đặt môi trường:
-Cấu hình biến môi trường: Tạo tệp .env từ .env.sample và điền các API Key cần thiết:
-GROQ_API_KEY
-YOUTUBE_API_KEY
-ACRCLOUD_ACCESS_KEY, ACRCLOUD_ACCESS_SECRET, ACRCLOUD_REQ_URL
-REDIS_URL
+Cấu hình biến môi trường: Tạo tệp .env từ .env.sample và điền các API Key cần thiết:GROQ_API_KEY,YOUTUBE_API_KEY,ACRCLOUD_ACCESS_KEY, ACRCLOUD_ACCESS_SECRET,,ACRCLOUD_REQ_URL,REDIS_URL
 Chạy ứng dụng:
 Sau đó truy cập giao diện frontend để bắt đầu trò chuyện.
