@@ -47,27 +47,25 @@ Audio Processing
 FFmpeg
 Silero VAD
 SpeechRecognition
-🏗 System Architecture
-User (Text / Voice)
+## System Architecture
 
-        ↓
-        
+```text
+Text/Voice Input
+      ↓
 Frontend (Web UI)
-
-        ↓
-        
+      ↓
 FastAPI Backend
-        ↓
+      ↓
 AI Agent (LangChain + LangGraph)
-        ↓
+      ↓
 Tools:
     - Speech-to-Text
     - Song Recognition
     - YouTube Search
     - Redis Memory
-        ↓
+      ↓
 LLM (Llama-3 via Groq)
-        ↓
+      ↓
 Response → Frontend
 
 Hệ thống được thiết kế theo kiến trúc:
