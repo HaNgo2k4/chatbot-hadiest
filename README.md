@@ -90,7 +90,7 @@ hadiest/
 ```
 🚀 Installation
 1. Clone repository
-2. 
+
 ```text
 git clone https://github.com/HaNgo2k4/chatbot-hadiest
 cd chatbot-hadiest
@@ -117,13 +117,21 @@ python main.py
 Sau đó mở frontend để bắt đầu trò chuyện với chatbot.
 
 📌 Project Highlights
+
 Multi-modal AI Chatbot (Text + Voice)
+
 ReAct AI Agent with tool calling
+
 Song recognition from short audio
+
 Audio processing pipeline
+
 Redis conversation memory
+
 Full-stack FastAPI + JavaScript
+
 Modular & scalable architecture
+
 🔮 Future Improvements
 Text-to-Speech (AI trả lời bằng giọng nói)
 Emotion detection từ giọng nói
