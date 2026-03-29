@@ -67,7 +67,7 @@ Tools:
 LLM (Llama-3 via Groq)
       ↓
 Response → Frontend
-
+```
 Hệ thống được thiết kế theo kiến trúc:
 
 Modular architecture
@@ -77,6 +77,7 @@ AI Agent + Tools
 Audio Processing Pipeline
 Redis Conversation Memory
 📂 Project Structure
+```text
 hadiest/
 │
 ├── agents/             # AI Agent, reasoning logic, tools
@@ -86,25 +87,33 @@ hadiest/
 ├── main.py             # Application entry point
 ├── requirements.txt
 └── .env.sample
+```
 🚀 Installation
 1. Clone repository
+2. 
+```text
 git clone https://github.com/HaNgo2k4/chatbot-hadiest
 cd chatbot-hadiest
+```
 2. Install dependencies
+```text
 pip install -r requirements.txt
+```
 3. Setup environment variables
 
 Tạo file .env từ .env.sample và điền các API key:
-
+```text
 GROQ_API_KEY=
 YOUTUBE_API_KEY=
 ACRCLOUD_ACCESS_KEY=
 ACRCLOUD_ACCESS_SECRET=
 ACRCLOUD_REQ_URL=
 REDIS_URL=
+```
 4. Run application
+```text
 python main.py
-
+```
 Sau đó mở frontend để bắt đầu trò chuyện với chatbot.
 
 📌 Project Highlights
